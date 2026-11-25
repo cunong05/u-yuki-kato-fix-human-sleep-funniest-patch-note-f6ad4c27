@@ -10,9 +10,10 @@ Gate (from the competition kit RULES.txt): the file must be UTF-8 text of
 import os
 import sys
 
-# The entry: one original line, 121 characters, no setup, no explanation.
-# A changelog line about the fix: sleep now charges overnight, so the
-# morning coffee boot-up is no longer needed.
+# The entry: one original line, 121 of the 160 allowed characters, no setup,
+# no explanation. A changelog line about the fix: sleep now charges
+# overnight, so the morning coffee boot-up is no longer needed — coffee is
+# demoted from a dependency to a hobby.
 ENTRY = (
     "Fixed a bug where humans needed coffee to boot up in the morning; "
     "sleep now charges overnight, coffee demoted to a hobby."
