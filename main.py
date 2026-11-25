@@ -80,7 +80,8 @@ def main():
             print("GATE FAIL (bytes): %s" % failure, file=sys.stderr)
         return 1
 
-    print("OK: wrote %d/%d chars, 1 line, to %s" % (len(written), MAX_CHARS, OUTPUT_PATH))
+    print("OK: wrote %d/%d chars (%d bytes), 1 line, to %s" % (
+        len(written), MAX_CHARS, len(written.encode("utf-8")), OUTPUT_PATH))
     print(written)
     return 0
 
